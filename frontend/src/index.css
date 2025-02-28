@@ -1,0 +1,18 @@
+body { 
+    margin: 0;
+    font-family: "Helvetica", "Helvetica Neue", Arial, sans-serif;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    background-color: #e9ebf0;
+  }
+  
+  code {
+    font-family: "Fira Code", "JetBrains Mono", "Source Code Pro", Menlo, Monaco,
+      Consolas, "Courier New", monospace;
+  }
+  
+  a {
+    text-decoration: none;
+    color: inherit;
+  }
+  
