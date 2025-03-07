@@ -87,7 +87,7 @@ function Header() {
             >
               {pages.map((page) => (
                 <MenuItem key={page} onClick={handleCloseNavMenu}>
-                  <a href={`/${page.toLowerCase().replace(/\s+/g, '-')`}><Typography sx={{ textAlign: 'center' }}>{page}</Typography></a>
+                  <a href={`/${page}`}><Typography sx={{ textAlign: 'center' }}>{page}</Typography></a>
                 </MenuItem>
               ))}
             </Menu>
